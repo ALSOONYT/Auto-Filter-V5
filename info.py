@@ -13,9 +13,9 @@ def is_enabled(value, default):
 # Bot information
 PORT = environ.get("PORT", "8080")
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '12124605'))
-API_HASH = environ.get('API_HASH', '5cf3577d85fd02286535ec2296934287')
-BOT_TOKEN = environ.get('BOT_TOKEN', "5867279415:AAHxI9qM4iu-v4sOl53KPY")
+API_ID = int(environ.get('API_ID', '21101147'))
+API_HASH = environ.get('API_HASH', 'd16924b78f2bf245015882f3a7e68e51')
+BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -54,8 +54,8 @@ FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', 'https://t.me/movie_a1')
 HOW_DWLD_LINK = environ.get('HOW_DWLD_LINK', 'https://mdisk.me/convertor/9x16/iikzIM')
 
 # Log Channels
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', -1001758776529))
-RQST_LOG_CHANNEL = int(environ.get('RQST_LOG_CHANNEL', -1001758776529))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', -1002015783733))
+RQST_LOG_CHANNEL = int(environ.get('RQST_LOG_CHANNEL', ))
 
 # Bot Options
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
@@ -85,8 +85,8 @@ SPL_DELETE_TIME = int(environ.get('SPL_DELETE_TIME', 15))
 
 # URL SHORTNER
 
-URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'tglink.in')
-URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', '6a7a3cf3133e5b0478e9d029d881cad4ee8cf10d')
+URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'yourdestinationlink.com')
+URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', 'ed991dbae90e8db669788748ca4b61638ba4cb97')
 
 LOG_STR = "Current Cusomized Configurations are:-\n"
 LOG_STR += ("IMDB Results are enabled, Bot will be showing imdb details for you queries.\n" if IMDB else "IMBD Results are disabled.\n")
